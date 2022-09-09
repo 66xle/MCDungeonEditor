@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
+[SelectionBase]
 public class SelectMob : MonoBehaviour
 {
     public enum Mob

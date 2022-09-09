@@ -1,1 +1,1 @@
-{id:"minecraft:dirt",Count:1b,tag:{PublicBukkitValues:{"hypercube:enemystate":"[<3.5+1+17.5+210+Zombie>,<12+1+17.5+174.8+Husk>]-[<3.5+1+17.5+210+Skeleton>,<12+1+17.5+174.8+Husk>]"}}}
+{id:"minecraft:stone_bricks",Count:1b,tag:{PublicBukkitValues:{"hypercube:enemystate":"[<3.5+0.5+7+270+Zombie>,<12.5+0.5+14+86.9+Zombie>,<12.5+0.5+7+86.9+Zombie>,<3.5+0.5+14+270+Zombie>]-[<3.5+0.5+7+270+Skeleton>,<12.5+0.5+14+86.9+Skeleton>,<12.5+0.5+7+86.9+Skeleton>,<3.5+0.5+14+270+Skeleton>]"}}}

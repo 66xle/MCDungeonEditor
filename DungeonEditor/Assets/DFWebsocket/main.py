@@ -15,7 +15,7 @@ __version__ = "1.2.1"
 
 def sendItem():
 
-    with open('D:/robbo/Unity Projects/DungeonEditor/Assets/DFWebsocket/nbt.txt') as f:
+    with open('I:/MCDungeonEditor/DungeonEditor/Assets/DFWebsocket/nbt.txt') as f:
         text = f.read()
 
 
