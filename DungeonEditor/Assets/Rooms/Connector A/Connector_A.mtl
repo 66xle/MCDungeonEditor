@@ -1,0 +1,266 @@
+Wavefront OBJ material file
+# Contains 20 materials
+
+newmtl Stone
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Piston
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Block_of_Gold
+Ns 204
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.16 0.16 0.16
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Double_Stone_Brick_Slab
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Brick_Slab
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Bricks
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Cracked_Stone_Bricks
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Chiseled_Stone_Bricks
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Brick_Stairs
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Block_of_Emerald
+Ns 204
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.16 0.16 0.16
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Cobblestone_Wall
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Andesite_Wall
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Gray_Carpet
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Basalt
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Polished_Basalt
+Ns 216.75
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.17 0.17 0.17
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Magenta_Glazed_Terracotta
+Ns 204
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.16 0.16 0.16
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Black_Concrete
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Gray_Wall_Banner
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Lantern
+Ns 178.5
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.14 0.14 0.14
+Ke 1 1 1
+map_Ka Connector_A-RGBA.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGBA.png
+map_d Connector_A-Alpha.png
+map_Ke Connector_A-RGBA.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Chain
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka Connector_A-RGBA.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd Connector_A-RGBA.png
+map_d Connector_A-Alpha.png
+illum 2
+# d 1
+# Tr 0

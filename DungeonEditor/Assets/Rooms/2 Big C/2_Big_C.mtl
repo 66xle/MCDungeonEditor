@@ -1,0 +1,119 @@
+Wavefront OBJ material file
+# Contains 9 materials
+
+newmtl Block_of_Gold
+Ns 204
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.16 0.16 0.16
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Brick_Slab
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Bricks
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Brick_Stairs
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Block_of_Emerald
+Ns 204
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.16 0.16 0.16
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Stone_Brick_Wall
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Magenta_Glazed_Terracotta
+Ns 204
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.16 0.16 0.16
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Black_Concrete
+Ns 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0
+
+newmtl Polished_Andesite_Stairs
+Ns 216.75
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.17 0.17 0.17
+map_Ka 2_Big_C-RGB.png
+# for G3D, to make textures look blocky:
+interpolateMode NEAREST_MAGNIFICATION_TRILINEAR_MIPMAP_MINIFICATION
+map_Kd 2_Big_C-RGB.png
+illum 2
+# d 1
+# Tr 0

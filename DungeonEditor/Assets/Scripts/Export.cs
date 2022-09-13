@@ -1,33 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 using UnityEditor.Scripting.Python;
-using System.IO;
 
-
-[CustomEditor(typeof(Export))]
-public class ExportEditor : Editor
-{
-    public override void OnInspectorGUI()
-    {
-        EditorGUILayout.Space();
-
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("item"));
-
-        EditorGUILayout.Space();
-
-        Export room = (Export)target;
-        if (GUILayout.Button("Export Item"))
-        {
-            room.ExportItem();
-        }
-        
-        serializedObject.ApplyModifiedProperties();
-
-    }
-}
-
+[SelectionBase]
 public class Export : MonoBehaviour
 {
     public string item = "stone_bricks";
@@ -63,9 +39,9 @@ public class Export : MonoBehaviour
                 entrancesNBT += "=";
 
             if (i == 0)
-                entrancesNBT = $"{facingDir}-<{Round(Mathf.Abs(dirToEnt.x))},{Round(dirToEnt.y)},{Round(dirToEnt.z)}>";
+                entrancesNBT = $"{facingDir}-<{Round(Mathf.Abs(dirToEnt.x))},{Round(dirToEnt.y)},{Round(Mathf.Abs(dirToEnt.z))}>";
             else
-                entrancesNBT += $"{facingDir}-<{Round(Mathf.Abs(dirToEnt.x))},{Round(dirToEnt.y)},{Round(dirToEnt.z)}>";
+                entrancesNBT += $"{facingDir}-<{Round(Mathf.Abs(dirToEnt.x))},{Round(dirToEnt.y)},{Round(Mathf.Abs(dirToEnt.z))}>";
         }
 
         #endregion
@@ -98,7 +74,7 @@ public class Export : MonoBehaviour
                 if (j > 0)
                     enemyNBT += "=";
                 
-                enemyNBT += $"<{Round(Mathf.Abs(dir.x))},{Round(dir.y)},{Round(dir.z)},{Round(yaw)},{mobSelected}>";
+                enemyNBT += $"<{Round(Mathf.Abs(dir.x))},{Round(dir.y)},{Round(Mathf.Abs(dir.z))},{Round(yaw)},{mobSelected}>";
             }
 
             enemyNBT = enemyNBT + "]";
@@ -112,9 +88,9 @@ public class Export : MonoBehaviour
             "id:\"minecraft:" + item + "\"," +
             "Count:1b," +
             "tag:{PublicBukkitValues:{" +
-                "\"hypercube:x\":" + Round(Mathf.Abs(dirToEnd.x + 1f)) + ".d," +
+                "\"hypercube:x\":" + Round(Mathf.Abs(dirToEnd.x) + 1f) + ".d," +
                 "\"hypercube:y\":" + Round(dirToEnd.y + 1f) + ".d," +
-                "\"hypercube:z\":" + Round(dirToEnd.z + 1f) + ".d," +
+                "\"hypercube:z\":" + Round(Mathf.Abs(dirToEnd.z) + 1f) + ".d," +
                 "\"hypercube:entrances\":\"" + entrancesNBT + "\"," +
                 "\"hypercube:enemystate\":\"" + enemyNBT + "\"}}}";
 
